@@ -1,0 +1,6 @@
+<h3>List from service<h3>
+    <ul>
+        <li *ngFor="let item of listToDisplay">{{item}}</li>
+    </ul>
+
+<input type="text" (input)="handleInput()" [(ngModel)]="filter">    

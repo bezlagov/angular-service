@@ -1,0 +1,34 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.itemCard {
+    border: 1px solid #8150cf;
+    box-shadow: 1px 1px 10px 0px;
+    margin: 20px;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+}
+
+.articul {
+    text-align: end;
+    font-weight: 100;
+    font-style: italic;
+}
+
+.price {
+    color: #0000ff;
+    text-align: end;
+    font-size: 30px;
+}
+
+.empty {
+    font-size: 50px;
+    color: #ff0000;
+    font-weight: 900;
+    text-align: center;
+}
