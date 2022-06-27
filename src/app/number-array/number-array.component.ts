@@ -16,7 +16,7 @@ export class NumberArrayComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  getList(){
+  getList() {
     return this.numberService.getList().join();
   }
 

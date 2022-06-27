@@ -19,5 +19,5 @@ export class ListService {
 
     setFiltration(key: string): string[] {
         return this.list.filter(x => x.toLocaleLowerCase().includes(key.toLocaleLowerCase()));
-      }
+    }
 }

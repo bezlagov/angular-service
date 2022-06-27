@@ -19,16 +19,16 @@ export class ProductService {
         return tempList.sort((a, b) => a.price - b.price);
     }
 
-    descPriceSort() : productInterface[]{
+    descPriceSort(): productInterface[] {
         let tempList = [...this.products];
         return tempList.sort((a, b) => b.price - a.price);
     }
 
-    getLowerPriceProduct() : productInterface{
+    getLowerPriceProduct(): productInterface {
         return this.products.reduce((prev, curr) => prev.price < curr.price ? prev : curr);
     }
 
-    getHigherPriceProduct() : productInterface{
+    getHigherPriceProduct(): productInterface {
         return this.products.reduce((prev, curr) => prev.price < curr.price ? curr : prev);
     }
 }
